@@ -1,0 +1,24 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: [Debugging in Visual Studio Code](https://go.microsoft.com/fwlink/?linkid=830387)
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch via pulumi",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "envFile": "${workspaceFolder}/.env.sh",
+      "autoAttachChildProcesses": true,
+      "runtimeArgs": [
+        "run-script",
+        "preview"
+      ],
+      "runtimeExecutable": "npm",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    }
+  ]
+}

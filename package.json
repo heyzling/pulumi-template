@@ -1,0 +1,21 @@
+{
+  "name": "<FTName | snakecase>",
+  "type": "module",
+  "scripts": {
+    "preview": "pulumi preview",
+    "up": "pulumi up"
+  },
+  "devDependencies": {
+    "@types/node": "^16",
+    "tsx": "^4.7.1"
+  },
+  "dependencies": {
+    "@pulumi/command": "^0.11.1",
+    "@pulumi/digitalocean": "^4.23.0",
+    "@pulumi/docker": "^4.5.4",
+    "@pulumi/kubernetes": "^4.7.1",
+    "@pulumi/pulumi": "^3.0.0",
+    "@pulumi/yandex": "^0.13.0",
+    "glob": "^11.0.0"
+  }
+}

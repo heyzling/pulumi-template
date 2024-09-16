@@ -1,0 +1,23 @@
+# env secrets
+*env*
+# include specific .env.sh without secrets to keep in env
+!.env.keep.sh
+
+# nodejs
+node_modules
+
+# pulumi
+stack*.json
+*.stack.json
+state*.json
+*.state.json
+
+# arhives
+*.tar.gz
+*.zip
+*.gzip
+*.tar
+
+# temp and logs
+**/*.log
+tmp

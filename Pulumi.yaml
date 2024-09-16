@@ -1,0 +1,18 @@
+# https://www.pulumi.com/docs/concepts/projects/project-file/
+name: 
+runtime:
+  name: "nodejs"
+  # options:
+    # https://github.com/privatenumber/tsx?tab=readme-ov-file#nodejs-loader
+    # use TSX loader to avoid ECM/CommonJS clash stupidity
+    ## For Node.js v20.5.1 and below
+    # nodeargs: --loader tsx
+    ## For Node.js v20.6.0 and above
+    # nodeargs: --import tsx
+description: 
+stackConfigDir: stacks/
+main: src
+backend:
+  url: 
+options:
+  refresh: always
